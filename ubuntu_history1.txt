@@ -1001,3 +1001,147 @@ UBUNTU HISTORY 1
  1734  sudo adduser user2
  1735  su user1
  1736  history
+ 1737  pwd
+ 1738  ls
+ 1739  cd AC
+ 1740  cd
+ 1741  cd AC
+ 1742  pwd
+ 1743  ls
+ 1744  cd ..
+ 1745  pwd
+ 1746  ls
+ 1747  cd tp
+ 1748  ls
+ 1749  cd abhi
+ 1750  ls
+ 1751  cd TP
+ 1752  cd
+ 1753  cd tp/abhi/TP
+ 1754  ls
+ 1755  cd
+ 1756  mkdir -p OuterFolder/InnerFolder
+ 1757  ls
+ 1758  cd OuterFolder
+ 1759  ls
+ 1760  cd InnerFolder
+ 1761  ls
+ 1762  cd
+ 1763  cd OuterFolder/InnerFolder
+ 1764  cd ../..
+ 1765  cd OuterFolder/InnerFolder
+ 1766  cd
+ 1767  cd OuterFolder
+ 1768  cd
+ 1769  ls > outputLS.txt
+ 1770  cat ls
+ 1771  cat outputLS.txt
+ 1772  echo "Hello, In UBUNTU OS" > t11.txt
+ 1773  cat t11.txt
+ 1774  echo "Contents appended" >> t11.txt
+ 1775  cat t11.txt
+ 1776  cat a*txt
+ 1777  ls *.txt
+ 1778  cat *.txt
+ 1779  cat *.txt > newMix.txt
+ 1780  cat newMix.txt
+ 1781  less mix.txt
+ 1782  less newMix.txt
+ 1783  mv newMix.txt /OuterFolder/InnerFolder
+ 1784  mv newMix.txt OuterFolder/InnerFolder
+ 1785  ls
+ 1786  cd /OuterFolder/InnerFolder
+ 1787  cd OuterFolder/InnerFolder
+ 1788  ls
+ 1789  cp newMix.txt new.txt
+ 1790  ls
+ 1791  pwd
+ 1792  mv new.txt .
+ 1793  mv new.txt ..
+ 1794  ls
+ 1795  cd ..
+ 1796  ls
+ 1797  cd
+ 1798  cd OuterFolder
+ 1799  ls
+ 1800  mv new.txt renamed.txt
+ 1801  ls
+ 1802  whoami
+ 1803  who
+ 1804  w
+ 1805  id
+ 1806  passwd
+ 1807  man man
+ 1808  man ls
+ 1809  man cd
+ 1810  man docker
+ 1811  cd /
+ 1812  pwd
+ 1813  cd
+ 1814  pwd
+ 1815  cat /etc/passwd
+ 1816*
+ 1817  cat /etc/group
+ 1818  groupadd demo
+ 1819  sudo groupadd demo
+ 1820  cat /etc/passwd
+ 1821  usermod
+ 1822  groupmod
+ 1823  ls -il
+ 1824  file t11.txt
+ 1825  ls
+ 1826  ls -a
+ 1827  chmod a-w t11.txt
+ 1828  ls -il t11.txt
+ 1829  chmod 774 t11.txt
+ 1830  ls  t11.txt
+ 1831  ls -il t11.txt
+ 1832  chmod 741 t11.txt
+ 1833  ls -il t11.txt
+ 1834  chmod 754 t11.txt
+ 1835  ls -il t11.txt
+ 1836  chmod 124 t11.txt
+ 1837  ls -il t11.txt
+ 1838  chmod 770 t11.txt
+ 1839  ls -il t11.txt
+ 1840  ls -alh t11.txt
+ 1841  ls -alh | grep t11.txt
+ 1842  ls -alh | grep t1
+ 1843  ls -alh | grep ubuntu
+ 1844  ls -alh | grep t*.txt
+ 1845  touch newtext.txt
+ 1846  nano newtext.txt
+ 1847  cat newtext.txt
+ 1848  ls -alh newtext.txt
+ 1849  ls
+ 1850  rm --newtext.txt
+ 1851  rm -- newtext.txt
+ 1852  ls
+ 1853  find . -name *dir*
+ 1854  find . -name *n*
+ 1855  find . -name *name*
+ 1856  find . -name *new*.txt
+ 1857  find . -name *new*
+ 1858  find . type -d -name *new*
+ 1859  find . type -d -name "new*"
+ 1860  cat tp/file2/tp3/new.txt
+ 1861  cd tp/file2/tp3
+ 1862  ls
+ 1863  mv new.txt newdel.txt
+ 1864  ls
+ 1865  cd
+ 1866  find . -name newdel -delete
+ 1867  ls
+ 1868  cd tp/file2/tp3
+ 1869  ls
+ 1870  cd
+ 1871  find . -name newdel.txt -delete
+ 1872  cd tp/file2/tp3
+ 1873  ls
+ 1874  cd
+ 1875  free
+ 1876  uptime
+ 1877  sudo apt update
+ 1878  python3
+ 1879  ls
+ 1880  history
