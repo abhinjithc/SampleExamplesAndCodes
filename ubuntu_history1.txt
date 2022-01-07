@@ -1,0 +1,1003 @@
+UBUNTU HISTORY 1
+
+ history
+  737  nano oddeven.sh
+  738  ./oddeven.sh
+  739  nano oddeven.sh
+  740  ./oddeven.sh
+  741  nano oddeven.sh
+  742  ./oddeven.sh
+  743  nano oddeven.sh
+  744  ./oddeven.sh
+  745  nano oddeven.sh
+  746  ./oddeven.sh
+  747  nano oddeven.sh
+  748  ./oddeven.sh
+  749  nano oddeven.sh
+  750  ./oddeven.sh
+  751  nano oddeven.sh
+  752  nano food.sh
+  753  chmod +x food.sh
+  754  ./food.sh
+  755  nano food.sh
+  756  ./food.sh
+  757  nano food.sh
+  758  ./food.sh
+  759  nano food.sh
+  760  ./food.sh
+  761  nano oddeven.sh
+  762  ./oddeven.sh
+  763  nano oddeven.sh
+  764  ./oddeven.sh
+  765  nano food.sh
+  766  ./food.sh
+  767  nano food.sh
+  768  ./food.sh
+  769  nano food.sh
+  770  ./food.sh
+  771  nano food.sh
+  772  ./food.sh
+  773  nano food.sh
+  774  ./food.sh
+  775  nano food.sh
+  776  ./food.sh
+  777  nano food.sh
+  778  ./food.sh
+  779  nano food.sh
+  780  ./food.sh
+  781  nano food.sh
+  782  ./food.sh
+  783  nano multi.sh
+  784  chmod +x multi.sh
+  785  ./multi.sh
+  786  nano multi.sh
+  787  ./multi.sh
+  788  nano frdarr.sh
+  789  chmod frdarr.sh
+  790  chmod +x frdarr.sh
+  791  ./frdarr.sh
+  792  nano frdarr.sh
+  793  ./frdarr.sh
+  794  nano multi.sh
+  795  nano food.sh
+  796  nano oddeven.sh
+  797  nano food.sh
+  798  nano frdarr.sh
+  799  ls
+  800  cd tp
+  801  ls
+  802  cd new
+  803  ls
+  804  nano scrptarg.sh
+  805  echo $SHELL
+  806  nano scrptarg.sh
+  807  chmod +x scrptarg.sh
+  808  ./scrptarg.sh
+  809  ./scrptarg.sh 111 222 333 444
+  810  mv scrptarg.sh ..
+  811  ls
+  812  cd ..
+  813  ls
+  814  mv scrptarg.sh ..
+  815  ls
+  816  cd ..
+  817  ls
+  818  cd
+  819  ls
+  820  nano scrptarg.sh
+  821  chmod +x scrptarg.sh
+  822  ./scrptarg.sh
+  823  ./scrptarg.sh 111 222 33 445 66 77 88 99
+  824  mv scrptarg.sh /tp/new
+  825  mv scrptarg.sh tp/new/
+  826  ls
+  827  cd /tp/new/
+  828  cd tp/new/
+  829  ls
+  830  ./scrptarg.sh 111 222 33 445 66 77 88 99
+  831  ./scrptarg.sh 111 222 33 445 66 77 88 99 8
+  832  nano scrptarg.sh
+  833  ./scrptarg.sh 111 222 33 445 66 77 88 99 8 a0 b0 c0
+  834  nano scrptarg.sh
+  835  ./scrptarg.sh 111 222 33 445 66 77 88 99 8 a0 b0 c0
+  836  nano scrptarg.sh
+  837  fg
+  838  ./scrptarg.sh 111 222 33 445 66 77 88 99 8 a0 b0 c0 1122
+  839  /scrptarg.sh 1a 2b 33 445 66 77 88 99 8 1010 1111 c0 1122
+  840  ls
+  841  /scrptarg.sh 1a 2b 33 445 66 77 88 99 8 1010 111
+  842  ./scrptarg.sh 1a 2b 33 445 66 77 88 99 8 1010 111
+  843  ./scrptarg.sh 1a 2b 33 445 66 77 88 99 8 1010 1111 c0 1122
+  844  nano jobs.sh
+  845  $SHELL
+  846  ls
+  847  cd tp
+  848  ls
+  849  cd new
+  850  ls
+  851  nano function1.sh
+  852  chmod +x function1.sh
+  853  ./function1.sh
+  854  nano function1.sh
+  855  ./function1.sh
+  856  nano function1.sh
+  857  ./function1.sh
+  858  nano function1.sh
+  859  ./function1.sh 88
+  860  nano function1.sh
+  861  ./function1.sh 88
+  862  ./function1.sh 8889
+  863  nano function1.sh
+  864  ./function1.sh 1 22 333 4444 55555
+  865  nano function1.sh
+  866  ./function1.sh 1 22 333 4444 55555
+  867  nano function1.sh
+  868  ./function1.sh 1 22 333 4444 55555
+  869  ls
+  870  cd tp
+  871  ls
+  872  cd new
+  873  ls
+  874  ls -l t2.txt
+  875  ls 777 t2.txt
+  876  chmod 777 t2.txt
+  877  ls -l t2.txt
+  878  chmod 772 t2.txt
+  879  ls -l t2.txt
+  880  chmod 123 t2.txt
+  881  ls -l t2.txt
+  882  chmod 124 t2.txt
+  883  ls -l t2.txt1
+  884  ls -l t2.txt
+  885  chmod 524 t2.txt
+  886  ls -l t2.txt
+  887  ls
+  888  cd tp
+  889  ls
+  890  mkdir n2
+  891  ls
+  892  cd n2
+  893  python
+  894  python3
+  895  ansible --version
+  896  ansible -h
+  897  ansible abc -m copy
+  898  ansible abc -m copy a="src=file2 dest=new"
+  899  ansible all -m ping
+  900  ansible all -a "/bin/echo hello"
+  901  ansible -u -a "/bin/echo hello"
+  902  nano yaml1.yml
+  903  clear
+  904  nano yaml1.yml
+  905  ./yaml1.yml
+  906  chmod +x yaml1.yml
+  907  ./yaml1.yml
+  908  .cat yaml1.yml
+  909  cat yaml1.yml
+  910  ansible-galaxy init --force --offline newDirRole
+  911  tree newDirRole
+  912  ansible tree newDirRole
+  913  tree newDirRole/
+  914  ansible tree newDirRole/
+  915  cat newDirRole
+  916  ls
+  917  ls -li newDirRole
+  918  ls -li
+  919  ls -li newDirRole
+  920  ansible -h
+  921  ansible-galaxy -h
+  922  ansible-galaxy
+  923  ansible-galaxy /roles
+  924  ansible-galaxy list
+  925  ansible-galaxy info
+  926  ansible-galaxy role info
+  927  ansible-galaxy newDirRole info
+  928  ls
+  929  ansible-galaxy newDirRole
+  930  ansible-galaxy role newDirRole
+  931  ansible-galaxy TYPE
+  932  ansible-galaxy ...
+  933  ansible-galaxy -v
+  934  ansible-galaxy newDirRole role
+  935  ansible-galaxy -h
+  936  ansible-galaxy --help
+  937  ansible-galaxy TYPE collection
+  938  ansible-galaxy collection
+  939  ansible all -m
+  940  ansible all -m setup
+  941  tree newDirRole
+  942  sudo apt install tree
+  943  tree newDirRole
+  944  cd \newDirRole
+  945  ls
+  946  cd
+  947  last
+  948  uptime
+  949  ansible-galaxy -h
+  950  ansible-galaxy
+  951  ansible-galaxy init --force --offline newDirRole
+  952  tree newDirRole
+  953  cd \newDirRole
+  954  ls
+  955  cd
+  956  tree newDirRole
+  957  cd \newDirRole
+  958  nano demo.yml
+  959  ls
+  960  cat demo.yml
+  961  cd
+  962  nano demo.yml
+  963  ansible-galaxy init --force --offline install-tomcat
+  964  ansible-galaxy init --force --offline start-tomcat
+  965  cd \install-tomcat
+  966  ls
+  967  cd tasks
+  968  ls
+  969  nano main.yml
+  970  cd
+  971  ls
+  972  cd \start-tomcat
+  973  cd tasks
+  974  ls
+  975  nano main.yml
+  976  cat main.yml
+  977  ls
+  978  cd
+  979  cat demo.yml
+  980  cd \install-tomcat/tasks
+  981  ls
+  982  cat main.yml
+  983  cd
+  984  sudo ansible-playbook -i hosts demo.yml -vvv
+  985  cat main.yml
+  986  cat demo.yml
+  987  nano demo.yml
+  988  cat demo.yml
+  989  nano demo.yml
+  990  sudo ansible-playbook -i hosts demo.yml -vvv
+  991  nano demo.yml
+  992  sudo ansible-playbook -i hosts demo.yml -vvv
+  993  cat demo.yml
+  994  nano demo.yml
+  995  sudo ansible-playbook -i hosts demo.yml -vvv
+  996  ls
+  997  nano demo.yml
+  998  sudo ansible-playbook -i hosts demo.yml -vvv
+  999  nano demo.yml
+ 1000  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1001  cat demo.yml
+ 1002  nano demo.yml
+ 1003  cat demo.yml
+ 1004  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1005  nano demo.yml
+ 1006  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1007  ls
+ 1008  mkdir ansibleSample
+ 1009  mv demo.yml ansibleSample
+ 1010  ls
+ 1011  cd ansibleSample
+ 1012  ls
+ 1013  cd
+ 1014  mv install-tomcat ansibleSample
+ 1015  mv start-tomcat ansibleSample
+ 1016  ls
+ 1017  mv newDirRole ansibleSample
+ 1018  ls
+ 1019  cd ansibleSample
+ 1020  ls
+ 1021  mkdir tomcatPlaybook
+ 1022  mv start-tomcat tomcatPlaybook
+ 1023  mv install-tomcat tomcatPlaybook
+ 1024  mv demo.yml tomcatPlaybook
+ 1025  ls
+ 1026  cd tomcatPlaybook
+ 1027  ls
+ 1028  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1029  nano demo.yml
+ 1030  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1031  nano demo.yml
+ 1032  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1033  nano demo.yml
+ 1034  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1035  nano demo.yml
+ 1036  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1037  nano demo.yml
+ 1038  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1039  nano demo.yml
+ 1040  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1041  nano demo.yml
+ 1042  fg
+ 1043  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1044  nano demo.yml
+ 1045  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1046  nano demo.yml
+ 1047  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1048  nano demo.yml
+ 1049  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1050  nano demo.yml
+ 1051  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1052  nano demo.yml
+ 1053  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1054  nano demo.yml
+ 1055  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1056  nano demo.yml
+ 1057  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1058  nano demo.yml
+ 1059  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1060  nano demo.yml
+ 1061  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1062  nano demo.yml
+ 1063  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1064  nano demo.yml
+ 1065  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1066  nano demo.yml
+ 1067  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1068  nano demo.yml
+ 1069  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1070  nano demo.yml
+ 1071  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1072  nano demo.yml
+ 1073  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1074  ls
+ 1075  cd install-tomcat
+ 1076  ls
+ 1077  cd tasks
+ 1078  ls
+ 1079  nano main.yml
+ 1080  cd ..
+ 1081  cd start-tomcat/tasks/
+ 1082  ls
+ 1083  nano main.yml
+ 1084  cd ../ansibleSample/tomcatPlaybook
+ 1085  cd ..ansibleSample/tomcatPlaybook
+ 1086  cd ..
+ 1087  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1088  ls
+ 1089  cd install-tomcat/tasks
+ 1090  nano main.yml
+ 1091  cd
+ 1092  cd ansibleSample/tomcatPlaybook/
+ 1093  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1094  cd install-tomcat/tasks
+ 1095  nano main.yml
+ 1096  cd ansibleSample/tomcatPlaybook/
+ 1097  cd
+ 1098  cd ansibleSample/tomcatPlaybook/
+ 1099  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1100  cd install-tomcat/tasks
+ 1101  nano main.yml
+ 1102  cd
+ 1103  cd ansibleSample/tomcatPlaybook/
+ 1104  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1105  cd install-tomcat/tasks
+ 1106  nano main.yml
+ 1107  cd
+ 1108  cd ansibleSample/tomcatPlaybook/
+ 1109  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1110  cd install-tomcat/tasks
+ 1111  nano main.yml
+ 1112  cd
+ 1113  cd ansibleSample/tomcatPlaybook/
+ 1114  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1115  cd install-tomcat/tasks
+ 1116  nano main.yml
+ 1117  fg
+ 1118  nano main.yml
+ 1119  cd
+ 1120  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1121  cd ansibleSample/tomcatPlaybook/
+ 1122  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1123  cd install-tomcat/tasks
+ 1124  nano main.yml
+ 1125  cd
+ 1126  cd ansibleSample/tomcatPlaybook/
+ 1127  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1128  cd install-tomcat/tasks
+ 1129  nano main.yml
+ 1130  cd
+ 1131  cd ansibleSample/tomcatPlaybook/
+ 1132  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1133  cd ansibleSample/tomcatPlaybook/
+ 1134  cd install-tomcat/tasks
+ 1135  nano main.yml
+ 1136  cd
+ 1137  cd ansibleSample/tomcatPlaybook/
+ 1138  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1139  cd install-tomcat/tasks
+ 1140  nano main.yml
+ 1141  cd
+ 1142  cd ansibleSample/tomcatPlaybook/
+ 1143  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1144  cd install-tomcat/tasks
+ 1145  nano main.yml
+ 1146  cd
+ 1147  cd ansibleSample/tomcatPlaybook/
+ 1148  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1149  cd
+ 1150  cd ansibleSample/tomcatPlaybook/
+ 1151  ls
+ 1152  mv demo.yml demo1.yml
+ 1153  ls
+ 1154  cat demo1.yml
+ 1155  sudo ansible-playbook -i hosts demo.yml -vvv
+ 1156  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1157  cd install-tomcat/tasks
+ 1158  nano main.yml
+ 1159  cd
+ 1160  cd ansibleSample/tomcatPlaybook/
+ 1161  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1162  cd install-tomcat/tasks
+ 1163  nano main.yml
+ 1164  cd
+ 1165  cd ansibleSample/tomcatPlaybook/
+ 1166  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1167  cd install-tomcat/tasks
+ 1168  nano main.yml
+ 1169  cd
+ 1170  cd ansibleSample/tomcatPlaybook/
+ 1171  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1172  cd install-tomcat/tasks
+ 1173  nano main.yml
+ 1174  cd
+ 1175  cd ansibleSample/tomcatPlaybook/
+ 1176  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1177  cd install-tomcat/tasks
+ 1178  nano main.yml
+ 1179  cd
+ 1180  cd ansibleSample/tomcatPlaybook/
+ 1181  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1182  cd install-tomcat/tasks
+ 1183  nano main.yml
+ 1184  cd
+ 1185  cd ansibleSample/tomcatPlaybook/
+ 1186  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1187  cd install-tomcat/tasks
+ 1188  nano main.yml
+ 1189  cd
+ 1190  cd ansibleSample/tomcatPlaybook/
+ 1191  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1192  cd install-tomcat/tasks
+ 1193  nano main.yml
+ 1194  cd
+ 1195  cd ansibleSample/tomcatPlaybook/
+ 1196  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1197  cd install-tomcat/tasks
+ 1198  nano main.yml
+ 1199  cd
+ 1200  cd ansibleSample/tomcatPlaybook/
+ 1201  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1202  cd install-tomcat/tasks
+ 1203  nano main.yml
+ 1204  cd
+ 1205  cd ansibleSample/tomcatPlaybook/
+ 1206  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1207  cd install-tomcat/tasks
+ 1208  nano main.yml
+ 1209  cd
+ 1210  cd ansibleSample/tomcatPlaybook/
+ 1211  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1212  cat install-tomcat/tasks/main.yml
+ 1213  cd install-tomcat/tasks
+ 1214  nano main.yml
+ 1215  cd
+ 1216  cd ansibleSample/tomcatPlaybook/
+ 1217  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1218  cd install-tomcat/tasks
+ 1219  nano main.yml
+ 1220  cd
+ 1221  cd ansibleSample/tomcatPlaybook/
+ 1222  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1223  cd install-tomcat/tasks
+ 1224  nano main.yml
+ 1225  cd
+ 1226  cd ansibleSample/tomcatPlaybook/
+ 1227  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1228  cd install-tomcat/tasks
+ 1229  nano main.yml
+ 1230  cd
+ 1231  cd ansibleSample/tomcatPlaybook/
+ 1232  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1233  cd install-tomcat/tasks
+ 1234  nano main.yml
+ 1235  cd
+ 1236  cd ansibleSample/tomcatPlaybook/
+ 1237  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1238  cd install-tomcat/tasks
+ 1239  nano main.yml
+ 1240  cd
+ 1241  cd ansibleSample/tomcatPlaybook/
+ 1242  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1243  cd install-tomcat/tasks
+ 1244  nano main.yml
+ 1245  cd
+ 1246  cd ansibleSample/tomcatPlaybook/
+ 1247  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1248  cd install-tomcat/tasks
+ 1249  nano main.yml
+ 1250  cd
+ 1251  cd ansibleSample/tomcatPlaybook/
+ 1252  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1253  cd install-tomcat/tasks
+ 1254  nano main.yml
+ 1255  cd
+ 1256  cd ansibleSample/tomcatPlaybook/
+ 1257  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1258  cd install-tomcat/tasks
+ 1259  nano main.yml
+ 1260  cd
+ 1261  cd ansibleSample/tomcatPlaybook/
+ 1262  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1263  cd install-tomcat/tasks
+ 1264  nano main.yml
+ 1265  cd
+ 1266  cd ansibleSample/tomcatPlaybook/
+ 1267  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1268  cd install-tomcat/tasks
+ 1269  nano main.yml
+ 1270  cd
+ 1271  cd ansibleSample/tomcatPlaybook/
+ 1272  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1273  cd install-tomcat/tasks
+ 1274  nano main.yml
+ 1275  cd
+ 1276  cd ansibleSample/tomcatPlaybook/
+ 1277  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1278  cd install-tomcat/tasks
+ 1279  nano main.yml
+ 1280  cat mail.yml
+ 1281  cat main.yml
+ 1282  nano main.yml
+ 1283  cd
+ 1284  cd install-tomcat/tasks
+ 1285  cd ansibleSample/tomcatPlaybook/
+ 1286  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1287  cd install-tomcat/tasks
+ 1288  nano main.yml
+ 1289  cd
+ 1290  cd ansibleSample/tomcatPlaybook/
+ 1291  sudo ansible-playbook -i hosts demo1.yml -vvv
+ 1292  ls
+ 1293  cd
+ 1294  ls
+ 1295  mkdir ShellScriptPrograms
+ 1296  cd ShellScriptPrograms
+ 1297  ls
+ 1298  nano fib.sh
+ 1299  chmod +x fib.sh
+ 1300  ./fib.sh
+ 1301  nano fib.sh
+ 1302  ./fib.sh
+ 1303  nano fib.sh
+ 1304  ./fib.sh
+ 1305  nano fib.sh
+ 1306  ./fib.sh
+ 1307  nano fib.sh
+ 1308  ./fib.sh
+ 1309  D
+ 1310  clear
+ 1311  ls
+ 1312  cd
+ 1313  ls
+ 1314  cd tp
+ 1315  ls
+ 1316  cd tp2
+ 1317  ls
+ 1318  cd ..
+ 1319  ls
+ 1320  cd new
+ 1321  ls
+ 1322  cat oddeven
+ 1323  cat oddeven.sh
+ 1324  cat multi.sh
+ 1325  nano fib.sh
+ 1326  cd
+ 1327  ls
+ 1328  cd ShellScriptPrograms
+ 1329  ls
+ 1330  nano fib.sh
+ 1331  ./fib.sh
+ 1332  nano fib.sh
+ 1333  ./fib.sh
+ 1334  nano fib.sh
+ 1335  ./fib.sh
+ 1336  nano fib.sh
+ 1337  ./fib.sh
+ 1338  nano fib.sh
+ 1339  ./fib.sh
+ 1340  nano fib.sh
+ 1341  ./fib.sh
+ 1342  nano fib.sh
+ 1343  ./fib.sh
+ 1344  nano fib.sh
+ 1345  ./fib.sh
+ 1346  nano fib.sh
+ 1347  ./fib.sh
+ 1348  nano fib.sh
+ 1349  ./fib.sh
+ 1350  nano fib.sh
+ 1351  ./fib.sh
+ 1352  [A
+ 1353  nano fib.sh
+ 1354  ./fib.sh
+ 1355  nano fib.sh
+ 1356  ./fib.sh
+ 1357  cat fib.sh
+ 1358  nano Prime.sh
+ 1359  chmod +x Prime.sh
+ 1360  ./Prime.sh
+ 1361  nano Prime.sh
+ 1362  ./Prime.sh
+ 1363  nano Prime.sh
+ 1364  ./Prime.sh
+ 1365  nano Prime.sh
+ 1366  ./Prime.sh
+ 1367  nano Prime.sh
+ 1368  ./Prime.sh
+ 1369  nano Prime.sh
+ 1370  ./Prime.sh
+ 1371  nano Prime.sh
+ 1372  ./Prime.sh
+ 1373  nano Prime.sh
+ 1374  ./Prime.sh
+ 1375  nano Prime.sh
+ 1376  ./Prime.sh
+ 1377  nano Prime.sh
+ 1378  ./Prime.sh
+ 1379  nano Prime.sh
+ 1380  ./Prime.sh
+ 1381  nano Prime.sh
+ 1382  ./Prime.sh
+ 1383  cd
+ 1384  cd tp
+ 1385  cd new
+ 1386  ls
+ 1387  cd oddeven.sh
+ 1388  cat oddeven.sh
+ 1389  cd
+ 1390  ls
+ 1391  cd ShellScriptPrograms
+ 1392  nano Prime.sh
+ 1393  ./Prime.sh
+ 1394  nano Prime.sh
+ 1395  ./Prime.sh
+ 1396  nano Prime.sh
+ 1397  ./Prime.sh
+ 1398  nano Prime.sh
+ 1399  ./Prime.sh
+ 1400  nano Prime.sh
+ 1401  ./Prime.sh
+ 1402  nano Prime.sh
+ 1403  ./Prime.sh
+ 1404  nano Prime.sh
+ 1405  ./Prime.sh
+ 1406  nano Prime.sh
+ 1407  ./Prime.sh
+ 1408  nano Prime.sh
+ 1409  ./Prime.sh
+ 1410  nano Prime.sh
+ 1411  ./Prime.sh
+ 1412  nano Prime.sh
+ 1413  ./Prime.sh
+ 1414  cat
+ 1415  cat Prime.sh
+ 1416  cat fib.sh
+ 1417  cat Prime.sh
+ 1418  ls
+ 1419  mkdir AC
+ 1420  cd AC
+ 1421  mkdir AbcImpex
+ 1422  cd AbcImpex
+ 1423  id
+ 1424  sudo useradd mbr1
+ 1425  sudo useradd mbr2
+ 1426  sudo useradd mbr3
+ 1427  sudo useradd mbr4
+ 1428  pwd
+ 1429  id
+ 1430  cat /etc/passwd
+ 1431  cd
+ 1432  usermod
+ 1433  usermod  mbr1
+ 1434  sudo su - mbr1
+ 1435  sudo usermod -d
+ 1436  pwd
+ 1437  sudo su
+ 1438  pwd
+ 1439  cd ..
+ 1440  ls
+ 1441  usermod -d
+ 1442  usermod --d
+ 1443  usermod -d mbr1
+ 1444  sudo usermod -d mbr1
+ 1445  cd
+ 1446  cd ../..
+ 1447  pwd
+ 1448  ls
+ 1449  sudo useradd m2
+ 1450  ls
+ 1451  cd home
+ 1452  ls
+ 1453  ubuntu config --default-user root
+ 1454  sudo su mbr1
+ 1455  sudo useradd m3
+ 1456  user
+ 1457  who
+ 1458  whoami
+ 1459  usermod
+ 1460  usermod --home
+ 1461  usermod --home mbr1
+ 1462  cat /etc/passwd
+ 1463  su - mbr1
+ 1464  usermod
+ 1465  usermod [-d] LOGIN
+ 1466  usermod -d LOGIN
+ 1467  usermod -d MBR1
+ 1468  usermod -d mbr1
+ 1469  usermod -d, --home HOME_DIR mbr1
+ 1470  usermod -d, --home mbr1
+ 1471  usermod -d, --home HOME_DIR mbr1
+ 1472  cd
+ 1473  ls
+ 1474  cd AC
+ 1475  cd ABCImpex
+ 1476  cd AbcImpex
+ 1477  sudo useradd aaa
+ 1478  cat /etc/passwd
+ 1479  su - aaa
+ 1480  sudo passwd mbr1
+ 1481  su - mbr1
+ 1482  sudo passwd mbr2
+ 1483  sudo passwd mbr3
+ 1484  sudo passwd mbr4
+ 1485  usermod -d, --home HOME_DIR mbr1
+ 1486  usermod -d, --home HOME_DIR mbr2
+ 1487  sudo usermod -d, --home HOME_DIR mbr1
+ 1488  sudo usermod -d, --home HOME_DIR mbr2
+ 1489  sudo usermod -d, --home HOME_DIR mbr3
+ 1490  sudo usermod -d, --home HOME_DIR mbr4
+ 1491  ls
+ 1492  cd
+ 1493  ls
+ 1494  cd ..
+ 1495  ls
+ 1496  su - mbr1
+ 1497  user
+ 1498  sudo su - mbr1
+ 1499  usermod -aG sudo mbr1
+ 1500  usermod -aG sudo mbr2
+ 1501  usermod -aG sudo ubuntu20
+ 1502  sudo su mbr1
+ 1503  usermod -d --home HOME_DIR mbr1
+ 1504  usermod -d, --home HOME_DIR mbr1
+ 1505  sudo usermod -d, --home HOME_DIR mbr1
+ 1506  su - mbr1
+ 1507  cd
+ 1508  ls
+ 1509  cd AC
+ 1510  ls
+ 1511  cd AbcImpex
+ 1512  ls
+ 1513  sudo addgroup abc
+ 1514  cat /etc/passwd
+ 1515  su - mbr1
+ 1516  sudo adduser mb1
+ 1517  sudo adduser mb2
+ 1518  sudo adduser mb3
+ 1519  cd
+ 1520  cd ../..
+ 1521  ls
+ 1522  cd home
+ 1523  ls
+ 1524  sudo adduser mb4
+ 1525  sn - mb1
+ 1526  su - mb1
+ 1527  cd
+ 1528  ls
+ 1529  cd tp
+ 1530  ls
+ 1531  cd abhi
+ 1532  ls
+ 1533  cd tp1
+ 1534  ls
+ 1535  cd ..
+ 1536  ls
+ 1537  cd tp2
+ 1538  ls
+ 1539  cd ..
+ 1540  ls
+ 1541  cd TP
+ 1542  ls
+ 1543  pwd
+ 1544  mv trainee.txt /home/ubuntu20/tp/abhi/tp2
+ 1545  ls
+ 1546  cd hobdir
+ 1547  ls
+ 1548  echo "newfile ..." > n.txt
+ 1549  mv n.txt /home/ubuntu20/AC
+ 1550  ls
+ 1551  cd ..
+ 1552  ls
+ 1553  cd ..
+ 1554  ls
+ 1555  cd tp2
+ 1556  ls
+ 1557  cd
+ 1558  cd AC
+ 1559  ls
+ 1560  mv n.txt /home/ubuntu20/tp/abhi/tp2/
+ 1561  ls
+ 1562  cd
+ 1563  cd /home/ubuntu20/tp/abhi/
+ 1564  ls
+ 1565  cd tp2
+ 1566  ls
+ 1567  cp n.txt new.txt
+ 1568  ls
+ 1569  mv n.txt  /home/ubuntu20/AC/AbcImpex/ab.txt
+ 1570  cd
+ 1571  cd /home/ubuntu20/AC/AbcImpex/
+ 1572  ls
+ 1573  cat ab.txt
+ 1574  su mb1
+ 1575  su - mb1
+ 1576  uname -m
+ 1577  pwd
+ 1578  cd
+ 1579  pwd
+ 1580  python3
+ 1581  cd /home/timjag
+ 1582  ls
+ 1583  cd jogdir
+ 1584  ls
+ 1585  python3 clientinfo.py
+ 1586  nano clientinfo.py
+ 1587  clientinfo.py
+ 1588  cat clientinfo.py
+ 1589  ./clientinfo.py
+ 1590  sudo adduser timjag
+ 1591  su timjag
+ 1592  su - timjag
+ 1593  ls
+ 1594  cd AC
+ 1595  ls
+ 1596  nano args.sh
+ 1597  chmod +x args.sh
+ 1598  ./args.sh 55 22 88
+ 1599  nano argsStr.sh
+ 1600  chmod +x argsStr.sh
+ 1601  ./argsStr.sh abc
+ 1602  chmod +x argsStr.sh
+ 1603  nano argsStr.sh
+ 1604  ./argsStr.sh abc def ghi
+ 1605  ./argsStr.sh 123 456 789
+ 1606  cat argsStr.sh
+ 1607  cat args.sh
+ 1608  ./args.sh aa bb cc
+ 1609  echo Question 2
+ 1610  echo Question 1
+ 1611  nano args.sh
+ 1612  ./args.sh 12 34 56
+ 1613  ./args.sh ab cd ef
+ 1614  cat args.sh
+ 1615  nano argsStr.sh
+ 1616  fg
+ 1617  nano argsStr.sh
+ 1618  ./argsStr.sh 123 456 789
+ 1619  ./argsStr.sh abcd efgh ijkl
+ 1620  cat argsStr.sh
+ 1621  echo Question 2
+ 1622  nano input.sh
+ 1623  chmod +x input.sh
+ 1624  ./input.sh aa bb cc
+ 1625  nano input.sh
+ 1626  ./input.sh aa bb cc
+ 1627  nano input.sh
+ 1628  ./input.sh aa bb cc
+ 1629  nano input.sh
+ 1630  ./input.sh aa bb cc
+ 1631  nano input.sh
+ 1632  ./input.sh aa bb cc
+ 1633  nano input.sh
+ 1634  ./input.sh aa bb cc
+ 1635  nano input.sh
+ 1636  ./input.sh aa bb cc
+ 1637  nano input.sh
+ 1638  ./input.sh aa bb cc
+ 1639  nano input.sh
+ 1640  fg
+ 1641  nano input.sh
+ 1642  ./input.sh aa bb cc
+ 1643  nano input.sh
+ 1644  ./input.sh aa bb cc
+ 1645  nano input.sh
+ 1646  ./input.sh aa bb cc
+ 1647  nano input.sh
+ 1648  ./input.sh aa bb cc
+ 1649  nano input.sh
+ 1650  ./input.sh aa bb cc
+ 1651  nano input.sh
+ 1652  ./input.sh aa bb cc
+ 1653  nano input.sh
+ 1654  ./input.sh aa bb cc
+ 1655  nano input.sh
+ 1656  ./input.sh aa bb cc
+ 1657  nano input.sh
+ 1658  ./input.sh aa bb cc
+ 1659  ./input.sh are where you
+ 1660  nano input.sh
+ 1661  ./input.sh are where you
+ 1662  ./input.sh
+ 1663  ./input.sh 111 222 333
+ 1664  ls
+ 1665  cat input.sh
+ 1666  nano ifelse.sh
+ 1667  chmod +x ifelse.sh
+ 1668  ./ifelse.sh 111 222
+ 1669  chmod +x ifelse.sh
+ 1670  nano ifelse.sh
+ 1671  ./ifelse.sh 111 222
+ 1672  ./ifelse.sh 111 111
+ 1673  ./ifelse.sh abcd abcd
+ 1674  ./ifelse.sh abcd a1a1
+ 1675  sudo adduser abhi
+ 1676  su abhi
+ 1677  group ubuntu20
+ 1678  groups ubuntu20
+ 1679  su - abhi
+ 1680  cd
+ 1681  usermod sudo abhi
+ 1682  usermod -aG sudo abhi
+ 1683  sudo usermod -aG sudo abhi
+ 1684  groups abhi
+ 1685  su - abhi
+ 1686  history
+ 1687  su - abhi
+ 1688  cd AC
+ 1689  cd
+ 1690  cd AC
+ 1691  ls
+ 1692  cat ifelse.sh
+ 1693  su abhi
+ 1694  telnet 10.11.104.2
+ 1695  docker images
+ 1696  git clone https://github.com/dockersamples/linux_tweet_app
+ 1697  docker image build --tag abhinjith/linux_tweet_app:1.0 .
+ 1698  cd linux_tweet_app
+ 1699  docker image build --tag abhinjith/linux_tweet_app:1.0 .
+ 1700  docker container rm --force linux_tweet_app
+ 1701  docker pull abhinjith/getting-started
+ 1702  docker image build --tag abhinjith/getting-started .
+ 1703  curl -i http://localhost:5000/api/http://example.com/
+ 1704  ls
+ 1705  mkdir Zing
+ 1706  sudo adduser zing1
+ 1707  cd Zing
+ 1708  ls
+ 1709  su zing1
+ 1710  sudo adduser zing2
+ 1711  su zing2
+ 1712  adb shell
+ 1713  sudo apt install adb
+ 1714  adb shell
+ 1715  adb devices
+ 1716  adb shell
+ 1717  adb devices
+ 1718  adb shell
+ 1719  adb devices
+ 1720  /etc/passwd/
+ 1721  cat /etc/passwd/
+ 1722  cat /etc/passwd
+ 1723  pwd
+ 1724  ls
+ 1725  cd /home/user1
+ 1726  ls
+ 1727  cd
+ 1728  ls
+ 1729  ls
+ 1730  cd AC
+ 1731  ls
+ 1732  mkdir Hashmum
+ 1733  sudo adduser user1
+ 1734  sudo adduser user2
+ 1735  su user1
+ 1736  history
