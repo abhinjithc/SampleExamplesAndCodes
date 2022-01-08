@@ -1,5 +1,5 @@
-
-ubuntu20@Laptop:~$
+#	UBUNTU COMMANDS [(UBUNTU SHELL/KERNAL COMMANDS)/ UBUNTU BASH COMMANDS]
+  
 ubuntu20@Laptop:~$
 ubuntu20@Laptop:~$ pwd
 /home/ubuntu20
@@ -651,4 +651,458 @@ value= 15
 >>> exit
 Use exit() or Ctrl-D (i.e. EOF) to exit
 >>> exit()
-ubuntu20@Laptop:~$ ls
+ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$ python3
+Python 3.8.10 (default, Jun  2 2021, 10:49:15)
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined
+>>> 'hello'
+'hello'
+>>> hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined
+>>> 22
+22
+>>> 33
+33
+>>> a=0
+>>> a+=15
+>>> a+=25
+>>> a
+40
+>>> a%3
+1
+>>> a//3
+13
+>>> a/3
+13.333333333333334
+>>> name="abhi"
+>>> no="123"
+>>> name
+'abhi'
+>>> print name
+  File "<stdin>", line 1
+    print name
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(name)?
+>>> print(name)
+abhi
+>>> print(no)
+123
+>>> print(FIBANOCCI SERIES)
+  File "<stdin>", line 1
+    print(FIBANOCCI SERIES)
+                    ^
+SyntaxError: invalid syntax
+>>> print("FIBANOCCI SERIES")
+FIBANOCCI SERIES
+>>> a,b=0,1
+>>> while(a<55):
+...     print(" ",a, end=" ")
+...     c=a+b
+...     a=b
+...     b=c
+...
+  0   1   1   2   3   5   8   13   21   34 >>>
+>>>
+>>> print(" FUNCTIONS - PRIME NUMBERS ")
+ FUNCTIONS - PRIME NUMBERS
+>>> def isPrime(n):
+...     f=0
+...     i=2
+...     while(i<n):
+...         if(n%i==0):
+...             f=1
+...             return 1
+...         i+=1
+...     return 0
+...>>> def Prime(a,b):
+...     i=a
+...     if(a<2):
+...         i=2
+...     while(i<=b):
+...         if(isPrime(i)==0):
+...             print(i)
+...         i+=1
+...
+>>> Prime(0,50)
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+>>>
+>>> Prime(10,100)
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+>>>
+>>> class vehicle:
+...     cc=0
+...     no=""
+...     tp=""
+...     def vdtls(self):
+...         self.no=input(" Enter Reg. No. : ")
+...         self.cc=int(input(" Enter Engine Capacity : "))
+...         self.tp=input(" Enter Vehicle Type (Transport/Non-Transport) : ")
+...     def disp(self):
+...         print(" Engine No. : ",self.no)
+...         print(" Vehicle Registration No. : ",self.no)
+...         print(" Vehile Type : ",self.tp)
+...
+>>> V=vehicle()
+rint(">>> print(" Enter Vehicle details ")
+ Enter Vehicle details
+>>> V.vdtls()
+ Enter Reg. No. : 1234
+ Enter Engine Capacity : 5760
+ Enter Vehicle Type (Transport/Non-Transport) : Transport
+>>> V.disp()
+ Engine No. :  1234
+ Vehicle Registration No. :  1234
+ Vehile Type :  Transport
+>>> v2=vehicle()
+>>> v2.vdtls()
+ Enter Reg. No. : 456
+ Enter Engine Capacity : 2276
+ Enter Vehicle Type (Transport/Non-Transport) : Non-Transport
+>>> v2.disp()
+ Engine No. :  456
+ Vehicle Registration No. :  456
+ Vehile Type :  Non-Transport
+>>>
+>>> from math import *
+>>> sqrt(9)
+3.0
+>>> sqrt(25)
+5.0
+>>> pow(2,3)
+8.0
+>>> pow(2,10)
+1024.0
+>>> pow(16,0.5)
+4.0
+>>> pow(16,0.120)
+1.3947436663504054
+>>> pow(16,0.125)
+1.4142135623730951
+>>> pow(16,0.25)
+2.0
+>>>
+>>> exit()
+ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$ pmap
+
+Usage:
+ pmap [options] PID [PID ...]
+
+Options:
+ -x, --extended              show details
+ -X                          show even more details
+            WARNING: format changes according to /proc/PID/smaps
+ -XX                         show everything the kernel provides
+ -c, --read-rc               read the default rc
+ -C, --read-rc-from=<file>   read the rc from file
+ -n, --create-rc             create new default rc
+ -N, --create-rc-to=<file>   create new rc to file
+            NOTE: pid arguments are not allowed with -n, -N
+ -d, --device                show the device format
+ -q, --quiet                 do not display header and footer
+ -p, --show-path             show path in the mapping
+ -A, --range=<low>[,<high>]  limit results to the given range
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see pmap(1).
+ubuntu20@Laptop:~$ top
+top - 10:04:04 up 42 min,  0 users,  load average: 0.00, 0.00, 0.00
+Tasks:   5 total,   1 running,   4 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3872.5 total,   3695.5 free,     82.8 used,     94.2 buff/cache
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3629.4 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  110 ubuntu20  20   0   10896   3808   3276 R   0.0   0.1   0:00.02 top
+
+
+ubuntu20@Laptop:~$ ps
+  PID TTY          TIME CMD
+    9 pts/0    00:00:00 bash
+  112 pts/0    00:00:00 ps
+ubuntu20@Laptop:~$ info
+ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$ ansible --version
+ansible [core 2.11.7]
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/home/ubuntu20/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /home/ubuntu20/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+  python version = 3.8.10 (default, Jun  2 2021, 10:49:15) [GCC 9.4.0]
+  jinja version = 2.10.1
+  libyaml = True
+ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$ ansible all -m ping --ask-all
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET]
+               [-P POLL_INTERVAL] [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT]
+               [--ssh-common-args SSH_COMMON_ARGS] [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS]
+               [-C] [--syntax-check] [-D] [-e EXTRA_VARS] [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES]
+               [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR] [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+ansible: error: unrecognized arguments: --ask-all
+
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET]
+               [-P POLL_INTERVAL] [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT]
+               [--ssh-common-args SSH_COMMON_ARGS] [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS]
+               [-C] [--syntax-check] [-D] [-e EXTRA_VARS] [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES]
+               [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR] [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+
+Define and run a single task 'playbook' against a set of hosts
+
+positional arguments:
+  pattern               host pattern
+
+optional arguments:
+  --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  --list-hosts          outputs a list of matching hosts; does not execute anything else
+  --playbook-dir BASEDIR
+                        Since this tool does not use playbooks, use this as a substitute playbook directory.This sets the relative path for many features
+                        including roles/ group_vars/ etc.
+  --syntax-check        perform a syntax check on the playbook, but do not execute it
+  --task-timeout TASK_TIMEOUT
+                        set task timeout limit in seconds, must be positive integer.
+  --vault-id VAULT_IDS  the vault identity to use
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location, configured module search path, module location, executable location and exit
+  -B SECONDS, --background SECONDS
+                        run asynchronously, failing after X seconds (default=N/A)
+  -C, --check           don't make any changes; instead, try to predict some of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the differences in those files; works great with --check
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library (default=~/.ansible/plugins/modules:/usr/share/ansible/plugins/modules)
+  -P POLL_INTERVAL, --poll POLL_INTERVAL
+                        set the poll interval if using -B (default=15)
+  -a MODULE_ARGS, --args MODULE_ARGS
+                        The action's options in space separated k=v format: -a 'opt1=val1 opt2=val2'
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if filename prepend with @
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host list. --inventory-file is deprecated
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -m MODULE_NAME, --module-name MODULE_NAME
+                        Name of the action to execute (default=command)
+  -o, --one-line        condense output
+  -t TREE, --tree TREE  log output to this directory
+  -v, --verbose         verbose mode (-vvv for more, -vvvv to enable connection debugging)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -b, --become          run operations with become (does not imply password prompting)
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f, -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g. ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default=10)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=smart)
+  -k, --ask-pass        ask for connection password
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Some actions do not make sense in Ad-Hoc (include, meta, etc)
+ ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$ echo "SHELL SCRIPTING"
+SHELL SCRIPTING
+ubuntu20@Laptop:~$ echo $SHELL
+/bin/bash
+ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$ echo hello, Shell Scripting
+hello, Shell Scripting
+ubuntu20@Laptop:~$
+ubuntu20@Laptop:~$ mkdir new
+ubuntu20@Laptop:~$ cd new
+ubuntu20@Laptop:~/new$ ls
+ubuntu20@Laptop:~/new$ nano shell1.sh
+ubuntu20@Laptop:~/new$ ./shell1.sh
+-bash: ./shell1.sh: Permission denied
+ubuntu20@Laptop:~/new$ chmod +x shell1.sh
+ubuntu20@Laptop:~/new$ ./shell1.sh
+SHELL SCRIPTING
+list  OF Directories
+shell1.sh
+abhi Kannur
+ubuntu20@Laptop:~/new$ cat shell1.sh
+#!/bin/bash
+echo "SHELL SCRIPTING"
+echo "list  OF Directories "
+ls
+name=abhi
+city=Kannur
+echo "$name $city"
+ubuntu20@Laptop:~/new$
+ubuntu20@Laptop:~/new$ nano shell2.sh
+ubuntu20@Laptop:~/new$ cat shell2.sh
+#!/bin/bash
+echo " Welcome"
+echo " Shell Scripting "
+ls
+pwd
+ls -l
+touch n2
+echo "File created using touch, content added using > & echo " > n2
+cat n2
+ubuntu20@Laptop:~/new$ chmod +x shell2.sh
+ubuntu20@Laptop:~/new$ ./shell2.sh
+ Welcome
+ Shell Scripting
+shell1.sh  shell2.sh
+/home/ubuntu20/new
+total 8
+-rwxr-xr-x 1 ubuntu20 ubuntu20 108 Jan  8 10:20 shell1.sh
+-rwxr-xr-x 1 ubuntu20 ubuntu20 150 Jan  8 10:24 shell2.sh
+File created using touch, content added using > & echo
+ubuntu20@Laptop:~/new$
+ubuntu20@Laptop:~/new$ nano shell3.sh
+ubuntu20@Laptop:~/new$ chmod +x shell3.sh
+ubuntu20@Laptop:~/new$ ./shell3.sh
+ Shell Scripting
+Enter name
+abhi
+Enter No. :
+1234
+name = abhi No. = 1234
+ubuntu20@Laptop:~/new$ cat shell3.sh
+#!/bin/bash
+echo " Shell Scripting "
+
+echo "Enter name "
+read name
+echo "Enter No. :"
+read no
+echo "name = $name No. = $no "
+
+
+
+ubuntu20@Laptop:~/new$
+ubuntu20@Laptop:~/new$ chmod 111 shell3.sh
+ubuntu20@Laptop:~/new$ ls -al shell3.sh
+---x--x--x 1 ubuntu20 ubuntu20 128 Jan  8 10:29 shell3.sh
+ubuntu20@Laptop:~/new$ chmod 444 shell3.sh
+ubuntu20@Laptop:~/new$ ls -al shell3.sh
+-r--r--r-- 1 ubuntu20 ubuntu20 128 Jan  8 10:29 shell3.sh
+ubuntu20@Laptop:~/new$ chmod 222 shell3.sh
+ubuntu20@Laptop:~/new$ ls -al shell3.sh
+--w--w--w- 1 ubuntu20 ubuntu20 128 Jan  8 10:29 shell3.sh
+ubuntu20@Laptop:~/new$ chmod 333 shell3.sh
+ubuntu20@Laptop:~/new$ ls -al shell3.sh
+--wx-wx-wx 1 ubuntu20 ubuntu20 128 Jan  8 10:29 shell3.sh
+ubuntu20@Laptop:~/new$ chmod 555 shell3.sh
+ubuntu20@Laptop:~/new$ ls -al shell3.sh
+-r-xr-xr-x 1 ubuntu20 ubuntu20 128 Jan  8 10:29 shell3.sh
+ubuntu20@Laptop:~/new$ chmod 666 shell3.sh
+ubuntu20@Laptop:~/new$ ls -al shell3.sh
+-rw-rw-rw- 1 ubuntu20 ubuntu20 128 Jan  8 10:29 shell3.sh
+ubuntu20@Laptop:~/new$ chmod 777 shell3.sh
+ubuntu20@Laptop:~/new$ ls -al shell3.sh
+-rwxrwxrwx 1 ubuntu20 ubuntu20 128 Jan  8 10:29 shell3.sh
+ubuntu20@Laptop:~/new$
+ubuntu20@Laptop:~/new$
+ubuntu20@Laptop:~/new$ nano ifelse.sh
+ubuntu20@Laptop:~/new$ chmod +x ifelse.sh
+ubuntu20@Laptop:~/new$ ./ifelse.sh
+Enter a number :
+5
+5 is odd number
+ubuntu20@Laptop:~/new$ ./ifelse.sh
+Enter a number :
+6
+6 is even number
+ubuntu20@Laptop:~/new$
+ubuntu20@Laptop:~/new$ nano fun3.sh
+ubuntu20@Laptop:~/new$ chmod +x fun3.sh
+ubuntu20@Laptop:~/new$ ./fun3.sh
+hello
+Parameters Passed from OUTSIDE : 44 77
+ Parameters Passed : 11 88
+ubuntu20@Laptop:~/new$ ./fun3.sh 12 23 34 45
+hello
+Parameters Passed from OUTSIDE : 12 23 34 45
+ Parameters Passed : 11 44 77 88
+ubuntu20@Laptop:~/new$ ./fun3.sh 12 34 56 78
+hello
+Parameters Passed from OUTSIDE : 12 34 56 78
+ Parameters Passed : 11 44 77 88
+ubuntu20@Laptop:~/new$ ./fun3.sh 12 34 56 78 90
+hello
+Parameters Passed from OUTSIDE : 12 34 56 78
+ Parameters Passed : 11 44 77 88
+ubuntu20@Laptop:~/new$ cat fun3.sh
+#!/bin/bash
+fun1(){
+echo "hello"
+echo "Parameters Passed from OUTSIDE : $2 $3 $5 $6 "
+echo " Parameters Passed : $1 $4 $7 $8"
+}
+fun1 11 $1 $2 44 $3 $4 77 88
+
+ubuntu20@Laptop:~/new$
