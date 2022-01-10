@@ -1,0 +1,131 @@
+Kubernetes CODES 
+
+
+
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get pods     
+No resources found in default namespace.
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2> kubectl apply -f pod.yaml
+pod/demo created
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get pods
+NAME   READY   STATUS              RESTARTS   AGE
+demo   0/1     ContainerCreating   0          4s
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get pods
+NAME   READY   STATUS    RESTARTS   AGE
+demo   1/1     Running   0          13s
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get pods
+NAME   READY   STATUS    RESTARTS   AGE
+demo   1/1     Running   0          20s
+PS H:\DevOpsTraining\Kubernates\new2> kubectl logs demo
+PING 8.8.8.8 (8.8.8.8): 56 data bytes
+64 bytes from 8.8.8.8: seq=0 ttl=37 time=32.058 ms
+64 bytes from 8.8.8.8: seq=1 ttl=37 time=23.193 ms
+64 bytes from 8.8.8.8: seq=2 ttl=37 time=22.538 ms
+64 bytes from 8.8.8.8: seq=3 ttl=37 time=22.940 ms
+64 bytes from 8.8.8.8: seq=4 ttl=37 time=34.558 ms
+64 bytes from 8.8.8.8: seq=5 ttl=37 time=24.123 ms
+64 bytes from 8.8.8.8: seq=6 ttl=37 time=22.883 ms
+64 bytes from 8.8.8.8: seq=7 ttl=37 time=22.755 ms
+64 bytes from 8.8.8.8: seq=8 ttl=37 time=22.497 ms
+64 bytes from 8.8.8.8: seq=9 ttl=37 time=22.826 ms
+64 bytes from 8.8.8.8: seq=10 ttl=37 time=22.447 ms
+64 bytes from 8.8.8.8: seq=11 ttl=37 time=22.307 ms
+64 bytes from 8.8.8.8: seq=12 ttl=37 time=23.135 ms
+64 bytes from 8.8.8.8: seq=13 ttl=37 time=22.831 ms
+64 bytes from 8.8.8.8: seq=14 ttl=37 time=22.741 ms
+64 bytes from 8.8.8.8: seq=15 ttl=37 time=22.816 ms
+64 bytes from 8.8.8.8: seq=16 ttl=37 time=23.579 ms
+64 bytes from 8.8.8.8: seq=17 ttl=37 time=22.543 ms
+64 bytes from 8.8.8.8: seq=18 ttl=37 time=23.346 ms
+64 bytes from 8.8.8.8: seq=19 ttl=37 time=22.310 ms
+64 bytes from 8.8.8.8: seq=20 ttl=37 time=24.999 ms
+64 bytes from 8.8.8.8: seq=21 ttl=37 time=22.697 ms
+64 bytes from 8.8.8.8: seq=22 ttl=37 time=24.454 ms
+64 bytes from 8.8.8.8: seq=23 ttl=37 time=22.022 ms
+64 bytes from 8.8.8.8: seq=24 ttl=37 time=21.747 ms
+64 bytes from 8.8.8.8: seq=25 ttl=37 time=21.989 ms
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> kubectl delete -f pod.yaml
+pod "demo" deleted
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get pods 
+No resources found in default namespace.
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> docker swarm init
+Error response from daemon: This node is already part of a swarm. Use "docker swarm leave" to leave this swarm and join another one.
+PS H:\DevOpsTraining\Kubernates\new2> docker swarm leave
+Error response from daemon: You are attempting to leave the swarm on a node that is participating as a manager. Removing the last manager erases all current state of the swarm. Use `--force` to ignore this message.
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2> docker swarm init 
+Error response from daemon: This node is already part of a swarm. Use "docker swarm leave" to leave this swarm and join another one.
+PS H:\DevOpsTraining\Kubernates\new2> docker swarm leave --force
+Node left the swarm.
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2> docker swarm init
+Swarm initialized: current node (zbwnh937vhsgy5fbrfb2njxpv) is now a manager.
+
+To add a worker to this swarm, run the following command:
+
+    docker swarm join --token SWMTKN-1-5ife5fkx9lwj9k8qoww6y44vesxk2gvlxzvbf7cogo62xkw25i-9364kbghqfyp68e17rhjmur2a 192.168.65.3:2377
+
+To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
+
+PS H:\DevOpsTraining\Kubernates\new2> docker service create --name demo alpine:3.5 ping 8.8.8.8
+xrqw594q6ks89zh3646mxh34o
+overall progress: 1 out of 1 tasks
+1/1: running   [==================================================>]
+verify: Service converged
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2> docker service ps demo
+ID             NAME      IMAGE        NODE             DESIRED STATE   CURRENT STATE            ERROR     PORTS
+ue4m64hk6o72   demo.1    alpine:3.5   docker-desktop   Running         Running 10 seconds ago
+PS H:\DevOpsTraining\Kubernates\new2> docker service logs demo
+demo.1.ue4m64hk6o72@docker-desktop    | PING 8.8.8.8 (8.8.8.8): 56 data bytes
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=0 ttl=37 time=21.715 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=1 ttl=37 time=22.705 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=2 ttl=37 time=22.239 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=3 ttl=37 time=22.371 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=4 ttl=37 time=23.158 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=5 ttl=37 time=22.236 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=6 ttl=37 time=22.694 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=7 ttl=37 time=21.801 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=8 ttl=37 time=23.870 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=9 ttl=37 time=23.782 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=10 ttl=37 time=22.058 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=11 ttl=37 time=25.560 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=12 ttl=37 time=22.982 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=13 ttl=37 time=23.766 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=14 ttl=37 time=26.144 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=15 ttl=37 time=24.510 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=16 ttl=37 time=23.325 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=17 ttl=37 time=26.002 ms
+demo.1.ue4m64hk6o72@docker-desktop    | 64 bytes from 8.8.8.8: seq=18 ttl=37 time=21.956 ms
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2> docker service rm demo
+demo
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> kubectl apply -f bb.yaml
+deployment.apps/bb-demo created
+service/bb-entrypoint created
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get deployments
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+bb-demo   0/1     1            0           9s
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get deployments
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+bb-demo   1/1     1            1           17s
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> kubectl get services
+NAME            TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+bb-entrypoint   NodePort    10.107.108.117   <none>        3000:30001/TCP   29s
+kubernetes      ClusterIP   10.96.0.1        <none>        443/TCP          2d1h
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> kubectl delete -f bb.yaml
+deployment.apps "bb-demo" deleted
+service "bb-entrypoint" deleted
+PS H:\DevOpsTraining\Kubernates\new2> 
+
