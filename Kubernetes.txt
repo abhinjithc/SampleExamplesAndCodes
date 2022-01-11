@@ -128,4 +128,40 @@ PS H:\DevOpsTraining\Kubernates\new2> kubectl delete -f bb.yaml
 deployment.apps "bb-demo" deleted
 service "bb-entrypoint" deleted
 PS H:\DevOpsTraining\Kubernates\new2> 
-
+PS H:\DevOpsTraining\Kubernates\new2> docker stack deploy -c bb-stack.yaml demo
+yaml: line 5: mapping values are not allowed in this context
+Creating service demo_bb-app
+PS H:\DevOpsTraining\Kubernates\new2> docker service ls                  
+ID             NAME          MODE         REPLICAS   IMAGE                              PORTS
+npc97y6b29dz   demo_bb-app   replicated   1/1        abhinjith/getting-started:latest   *:8000->3000/tcp
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2>  docker stack rm demo
+Removing service demo_bb-app
+Removing network demo_default
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2>
+PS H:\DevOpsTraining\Kubernates\new2> docker service create --replicas 1 --name my-prometheus --mount type=bind,source=H:\DevOpsTraining\Kubernates\new2\tmp/prometheus.yml,destination=/etc/prometheus/prometheus.yml --publish published=9090,target=9090,protocol=tcp prom/prometheus
+ksp26vtc6wqysmn616rjhntjr
+overall progress: 1 out of 1 tasks
+1/1: running   [==================================================>]
+verify: Service converged
+PS H:\DevOpsTraining\Kubernates\new2> docker service ls                                                                                                              ID             NAME            MODE         REPLICAS   IMAGE                    PORTS
+ksp26vtc6wqy   my-prometheus   replicated   1/1        prom/prometheus:latest   *:9090->9090/tcp
+PS H:\DevOpsTraining\Kubernates\new2> docker service create --replicas 10 --name ping_service alpine ping docker.com
+5o1k5a798deonpaajaisvn7jm
+overall progress: 10 out of 10 tasks
+1/10: running   [==================================================>]
+2/10: running   [==================================================>]
+3/10: running   [==================================================>]
+4/10: running   [==================================================>]
+5/10: running   [==================================================>]
+6/10: running   [==================================================>]
+7/10: running   [==================================================>]
+8/10: running   [==================================================>]
+9/10: running   [==================================================>]
+10/10: running   [==================================================>]
+verify: Service converged
+PS H:\DevOpsTraining\Kubernates\new2> 
+PS H:\DevOpsTraining\Kubernates\new2> docker service remove ping_service
+ping_service
+PS H:\DevOpsTraining\Kubernates\new2> 
